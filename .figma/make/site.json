@@ -1,0 +1,10 @@
+{
+  "description": "Track workouts, nutrition, and body progress with a sleek dashboard, compete with friends on the leaderboard, and achieve fitness goals efficiently.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
