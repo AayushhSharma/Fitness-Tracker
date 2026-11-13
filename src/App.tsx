@@ -582,6 +582,7 @@ function WorkoutPage({ toast }: { toast: (m: string) => void }) {
 
   const toggleSet = (ei: number, si: number) => {
     setSets(prev => {
+      // Clone both array levels before updating a set to preserve React state immutability.
       const n = prev.map(e => e.map(s => ({ ...s })));
       const wasDone = n[ei][si].done;
       n[ei][si].done = !wasDone;
