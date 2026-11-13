@@ -9,5 +9,5 @@ vite.config.*.timestamp-*
 *-debug.log*
 logs/
 *.log
-.claude-replay.* //a
+.claude-replay.* 
 .tmp-*
